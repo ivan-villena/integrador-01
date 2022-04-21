@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+.fondo-gris {
+  background-color: rgb(53,58,64) !important;  
+}
+.fondo-verde_claro {
+  background-color: rgb(150,201,62) !important;
+  border-color: rgb(150,201,62) !important;
+}
+.fondo-azul_oscuro {
+  background-color: rgb(29,62,81) !important;  
+}
+.fondo-transparente {
+  background-color: #0000007e;
+}
+
+.text-sub-pun {
+  text-decoration: underline dotted;
+}
+
+header{
+  background: center/cover no-repeat url(ima/ba1.jpg);
+}
+
+header > div.intro {
+  height: 550px;  
+  font-weight: bold;
+}
+
+main #nav-lugar_y_fecha p.card-text {
+  font-size: .9rem;
+}
+
+main #nav-oradores div.card {
+  width: 20rem;
+}
+
+footer > ul a.nav-link {
+  color: white;
+}
+
