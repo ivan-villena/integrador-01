@@ -9,8 +9,13 @@
   background-color: rgb(150,201,62) !important;
   border-color: rgb(150,201,62) !important;
 }
-.fondo-azul_oscuro {
-  background-color: rgb(29,62,81) !important;  
+.fondo-azul_degradado {
+  background: linear-gradient(to right, rgb(29,62,81), rgb(29,82,113) );
+  color: seashell;
+  
+}
+.fondo-azul_degradado ul li a:hover {
+  color: black !important;
 }
 .fondo-transparente {
   background-color: #0000007e;
